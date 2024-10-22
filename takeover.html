@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Notice - Subdomain Takeover Demonstration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .warning {
+            background-color: #fff3cd;
+            border: 1px solid #ffeeba;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        .contact {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #e9ecef;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Security Notice</h1>
+        <div class="warning">
+            <p><strong>This domain is vulnerable to subdomain takeover.</strong></p>
+            <p>This is a proof of concept demonstration page for security research purposes.</p>
+        </div>
+        <div class="details">
+            <p>The subdomain you're currently visiting was found to be vulnerable to a subdomain takeover. This has been identified as part of a security assessment.</p>
+            <p>Domain administrators should:</p>
+            <ul>
+                <li>Review DNS configurations</li>
+                <li>Remove or update dangling DNS records</li>
+                <li>Implement proper DNS management procedures</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <p>Please contact your security team or domain administrators.</p>
+            <p>Found by: [Researcher Name]<br>
+            Date: [Current Date]</p>
+        </div>
+    </div>
+</body>
+</html>
